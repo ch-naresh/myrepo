@@ -32,9 +32,9 @@ public class basepage {
 	
 	public static void openBrowser() throws MalformedURLException {
 		
-		//driver = new ChromeDriver();
-		ChromeOptions cap = new ChromeOptions();
-		driver = new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"), cap);
+		driver = new ChromeDriver();
+		//ChromeOptions cap = new ChromeOptions();
+		//driver = new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"), cap);
 
 		
 
